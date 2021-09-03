@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #003f5a;
+}
+
+/*Headings and logo*/
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color: #cc8ca6;
+    font-size: 24px;
+
+}
+
+#logo {
+    float: left;
+    font-size: 280%px;
+    margin-left: 15px;
+    margin-top: 20px;
+
+}
+
+/*Navigation links*/
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu , #logo {
+    line-height: 45px;
+
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+#menu h1,a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/*Hero image (initial image of the webpage)big Budapest image*/
+#hero-outer {
+    height: 55vh;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #e4e7d4;
+    font-size: 16px;
+}
+
+#hero-image {
+    height: 55vh;
+    width: 100%;
+    background: url(../image/hero.jpg);
+    background-size: cover;
+
+
+/*Animates the Budapest image, zoom effect on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
