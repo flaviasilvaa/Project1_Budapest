@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Lato&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
 }
 body {
     font-family: Lato, sans-serif;
@@ -17,7 +19,6 @@ h1 {
     letter-spacing: 3px;
     color: #cc8ca6;
     font-size: 24px;
-
 }
 
 #logo {
@@ -36,7 +37,6 @@ h1 {
 
 #menu , #logo {
     line-height: 45px;
-
 }
 
 #menu li {
@@ -76,7 +76,7 @@ h1 {
 #hero-image {
     height: 55vh;
     width: 100%;
-    background: url(../image/hero.jpg);
+    background: url(../images/hero.jpg);
     background-size: cover;
 
 
@@ -85,3 +85,109 @@ h1 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+@keyframes hero-zoom {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/*The text inside the image*/
+#cover-text {
+    font-size: 13px;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 3px;
+
+    width: 270px;
+    height: 80px;
+
+    padding-top: 5px;
+    padding-left: 5px;
+
+    background-color: rgba(165, 134, 149, 0.7) ;
+    bottom: 30px;
+    right: 90px;
+
+    position: absolute;
+}
+#span {
+     
+     font-family: 'Cormorant Garamond', serif;
+     letter-spacing: 1.5px;
+     text-align: center;
+     margin-bottom: 30px;
+    font-weight: bolder;
+    padding-left: 10px;  
+    
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+.first-container {
+    max-width: 1200px;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+.first-container img {
+    height: 100%;
+    clip-path: circle();
+}
+
+.first-container h3 {
+    text-align: center;
+    color: #cc8ca6;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* Create a white card with some shadow around it */
+.card {
+    padding: 10px; 
+     margin-bottom: 3px; 
+    border-radius: 10px;
+    box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.1),
+                 7px  7px 20px rgba(0, 0, 0, 0.1)
+  }
+.card p {
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    font-family: inherit;
+}
+  
+
+/*Section 3 - uploaded a youtube video*/
+.video {
+    text-align: center;
+}
+
+/*footer and media links*/
+footer {  
+    background-color: #cc8ca6;
+    overflow-x: auto;
+}
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: inherit;
+}
+
+
+
+
