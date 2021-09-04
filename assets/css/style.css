@@ -13,7 +13,7 @@ body {
 
 /*Headings and logo*/
 h1 {
-    font-family: 'Cormorant Garamond', serif;
+    
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 3px;
@@ -172,6 +172,7 @@ h1 {
 footer {  
     background-color: #cc8ca6;
     overflow-x: auto;
+   
 }
 .social-networks {
     text-align: center;
