@@ -4,20 +4,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #003f5a;
+    background-color:whitesmoke;
 }
 
 /*Headings and logo*/
 h1 {
-    font-family: 'Cormorant Garamond', serif;
+    
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 3px;
-    color: #cc8ca6;
+    color: #b87593;
     font-size: 24px;
 }
 
@@ -61,7 +63,7 @@ h1 {
 
 /*Hero image (initial image of the webpage)big Budapest image*/
 #hero-outer {
-    height: 55vh;
+    height: 400px;
     width: 100%;
     overflow: hidden;
 
@@ -71,10 +73,11 @@ h1 {
 #cover-text, #cover-text h2 {
     color: #e4e7d4;
     font-size: 16px;
+    text-align: center;
 }
 
 #hero-image {
-    height: 55vh;
+    height: 400px;
     width: 100%;
     background: url(../images/hero.jpg);
     background-size: cover;
@@ -106,28 +109,28 @@ h1 {
     padding-top: 5px;
     padding-left: 5px;
 
-    background-color: rgba(165, 134, 149, 0.7) ;
+    background-color: rgba(140, 112, 150, 0.7) ;
     bottom: 30px;
     right: 90px;
 
     position: absolute;
 }
 #span {
-     
-   
-     letter-spacing: 1.5px;
-     text-align: center;
-     margin-bottom: 30px;
-    font-weight: bolder;
+        
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 30px;
     padding-left: 10px;  
+    margin-top: 30px;
     
-    font-size: 20px;
+    font-size: 18px;
     text-transform: capitalize;
     
 }
 .first-container {
     max-width: 1200px;
     padding: 5px;
+    padding-top: 30px;
     margin-bottom: 30px;
     margin-left: 25px;
 }
@@ -138,7 +141,9 @@ h1 {
 
 .first-container h3 {
     text-align: center;
-    color: #cc8ca6;
+    color: #b87593;
+    font-family: 'Cormorant Garamond', serif;   
+    font-size: 20px;
 }
 
 .grid {
@@ -165,14 +170,19 @@ h1 {
 
 /*Section 3 - uploaded a youtube video*/
 .video {
+    padding: 30px 0 30px 0;
     text-align: center;
+    p
 }
 
 /*footer and media links*/
-footer {  
-    background-color: #cc8ca6;
-    overflow-x: auto;
-   
+.footer {  
+    flex-shrink: 0;
+    background-color:#b87593;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
 }
 .social-networks {
     text-align: center;
@@ -185,7 +195,6 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
     color: inherit;
 }
 
