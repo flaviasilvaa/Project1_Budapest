@@ -64,7 +64,7 @@ h1 {
 
 /*Hero image (initial image of the webpage)big Budapest image*/
 #hero-outer {
-    height: 400px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
 
@@ -73,12 +73,12 @@ h1 {
 
 #cover-text, #cover-text h2 {
     color: #e4e7d4;
-    font-size: 16px;
+    font-size: 19px;
     text-align: center;
 }
 
 #hero-image {
-    height: 400px;
+    height: 500px;
     width: 100%;
     background: url(../images/hero.jpg);
     background-size: cover;
@@ -100,12 +100,12 @@ h1 {
 
 /*The text inside the image*/
 #cover-text {
-    font-size: 13px;
+    font-size: 17px;
     font-family: 'Cormorant Garamond', serif;
-    letter-spacing: 3px;
-
+    letter-spacing: 2px;
+    
     width: 270px;
-    height: 80px;
+    height: 100px;
 
     padding-top: 5px;
     padding-left: 5px;
