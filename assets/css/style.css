@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Lato&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #003f5a;
-    background-color:#f1f1f1;
+    background-color: #f1f1f1;
 }
 
 /*Headings and logo*/
 h1 {
-    
+
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 3px;
@@ -35,7 +36,8 @@ h1 {
     letter-spacing: 3px;
 }
 
-#menu , #logo {
+#menu,
+#logo {
     line-height: 45px;
 }
 
@@ -46,7 +48,8 @@ h1 {
     padding-top: 20px;
 }
 
-#menu h1,a {
+#menu h1,
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -67,7 +70,8 @@ h1 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #e4e7d4;
     font-size: 19px;
     text-align: center;
@@ -80,15 +84,17 @@ h1 {
     background-size: cover;
 
 
-/*Animates the Budapest image, zoom effect on loading page*/
+    /*Animates the Budapest image, zoom effect on loading page*/
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 @keyframes hero-zoom {
     from {
         transform: scale(1.0);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -99,30 +105,32 @@ h1 {
     font-size: 17px;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 2px;
-    
+
     width: 270px;
     height: 100px;
 
     padding-top: 5px;
     padding-left: 5px;
 
-    background-color: rgba(140, 112, 150, 0.7) ;
+    background-color: rgba(140, 112, 150, 0.7);
     bottom: 30px;
     right: 90px;
 
     position: absolute;
 }
+
 #span {
-        
+
     letter-spacing: 1.5px;
     text-align: center;
     margin-bottom: 30px;
-    padding-left: 10px;  
+    padding-left: 10px;
     margin-top: 30px;
-    font-family:  Oswald, sans-serif;
+    font-family: Oswald, sans-serif;
     font-size: 18px;
     text-transform: capitalize;
 }
+
 .first-container {
     max-width: 1200px;
     padding: 5px;
@@ -130,6 +138,7 @@ h1 {
     margin-bottom: 30px;
     margin-left: 25px;
 }
+
 .first-container img {
     height: 100%;
     clip-path: circle();
@@ -140,9 +149,9 @@ h1 {
     text-align: center;
     color: #b87593;
     text-decoration: underline;
-    font-family: 'Cormorant Garamond', serif;   
+    font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
-   
+
 }
 
 .grid {
@@ -153,18 +162,18 @@ h1 {
 
 /* Create a white card with some shadow around it */
 .card {
-    padding: 10px; 
-     margin-bottom: 3px; 
+    padding: 10px;
+    margin-bottom: 3px;
     border-radius: 10px;
     box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.1),
-                 7px  7px 20px rgba(0, 0, 0, 0.1)
-  }
+        7px 7px 20px rgba(0, 0, 0, 0.1)
+}
 
 .card p {
     font-size: 13px;
     text-align: justify;
     letter-spacing: 1px;
-    font-family: Oswald, sans-serif;   
+    font-family: Oswald, sans-serif;
     text-transform: capitalize;
 }
 
@@ -177,7 +186,7 @@ em {
 .video {
     padding: 40px 0 40px 0;
     text-align: center;
-    
+
 }
 
 /*Gallery section formatting pictures*/
@@ -186,20 +195,24 @@ em {
     margin: auto;
     text-align: center;
 }
+
 .container {
     display: table;
 }
+
 .gallery {
-    
+
     padding-top: 60px;
 }
+
 .gallery img {
     display: table;
-     opacity: 0.7;
+    opacity: 0.7;
     cursor: pointer;
-    
+
     margin: 5px;
 }
+
 .gallery img:hover {
     opacity: 1;
 }
@@ -207,24 +220,25 @@ em {
 .description {
     display: table;
     margin-left: 400px;
-   width: auto;
-   
+    width: auto;
+
 }
-    
+
 /*footer and media links*/
-.footer {  
+.footer {
     flex-shrink: 0;
-    background-color:#b87593;
+    background-color: #b87593;
     padding: 20px;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
 }
+
 .social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -247,42 +261,46 @@ em {
 }
 
 .signup-form {
-    margin:150px 10% 0 0;
-    color:#e4e7d4;
-    background-color:rgba(60, 60, 60, 0.6);
-    max-width:400px;
+    margin: 150px 10% 0 0;
+    color: #e4e7d4;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
     position: absolute;
-    left:10%;
-    padding:30px;
+    left: 10%;
+    padding: 30px;
 }
-.signup-form > h2 {
-    color:#e4e7d4;
-    margin-bottom:20px;
+
+.signup-form>h2 {
+    color: #e4e7d4;
+    margin-bottom: 20px;
 }
+
 .text-input {
-    background:transparent;
-    color:#e4e7d4;
-    width:100%;
-    height:25px;
-    margin:5px 0 20px 0;
-    border:1px solid #e4e7d4;
-    border-radius:2px;
+    background: transparent;
+    color: #e4e7d4;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #e4e7d4;
+    border-radius: 2px;
 }
+
 .text-input:hover {
-    border-color:#b87593;
+    border-color: #b87593;
 }
 
 .join-button {
-    margin-top:20px;
-    border-radius:2px;
-    padding:15px 32px 15px 32px;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
     text-align: center;
-    font-size:100%;
-    background-color:#b87593;
-    color:#e4e7d4;
-    display:block;
+    font-size: 100%;
+    background-color: #b87593;
+    color: #e4e7d4;
+    display: block;
 }
+
 .join-button:hover {
-    background-color:#e4e7d4;
-    color:#b87593;
+    background-color: #e4e7d4;
+    color: #b87593;
 }
