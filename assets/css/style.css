@@ -184,6 +184,7 @@ em {
 .body-gallery {
     width: 960px;
     margin: auto;
+    text-align: center;
 }
 .container {
     display: table;
@@ -210,8 +211,6 @@ em {
    
 }
     
-  
- 
 /*footer and media links*/
 .footer {  
     flex-shrink: 0;
