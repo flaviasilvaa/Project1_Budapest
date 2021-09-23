@@ -193,7 +193,7 @@ em {
 
 .container {
     display: flex;
-    text-align: center;
+    align-items: center;
 }
 
 /*footer and media links*/
