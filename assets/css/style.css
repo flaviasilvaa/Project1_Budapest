@@ -189,6 +189,13 @@ em {
 
 }
 
+/*Gallery*/
+
+.container {
+    display: flex;
+    text-align: center;
+}
+
 /*footer and media links*/
 .footer {
     flex-shrink: 0;
