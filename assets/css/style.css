@@ -195,7 +195,9 @@ em {
     display: flex;
     align-items: center;
 }
-
+.container img {
+    height: 200px;
+}
 /*footer and media links*/
 .footer {
     flex-shrink: 0;
