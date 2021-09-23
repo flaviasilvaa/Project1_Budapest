@@ -197,12 +197,12 @@ em {
 }
 
 .container {
-    display: table;
+    display: flex;
 }
 
 .gallery {
 
-    padding-top: 60px;
+    display: flex;
 }
 
 .gallery img {
@@ -218,7 +218,7 @@ em {
 }
 
 .description {
-    display: table;
+    display: flex;
     margin-left: 400px;
     width: auto;
 
