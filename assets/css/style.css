@@ -193,15 +193,14 @@ em {
 
 #photo {
     clear: both;
-    line-height: 0;
+    line-height: 3;
     column-count: 4;
-    column-gap: 0px;
+    column-gap: 1px;    
 }
 
 #photo img{
-    width: 100%;
+    width: 100%;    
 }
-
 
 /*footer and media links*/
 .footer {
