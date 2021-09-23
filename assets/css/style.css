@@ -189,41 +189,6 @@ em {
 
 }
 
-/*Gallery section formatting pictures*/
-.body-gallery {
-    width: 960px;
-    margin: auto;
-    text-align: center;
-}
-
-.container {
-    display: flex;
-}
-
-.gallery {
-
-    display: flex;
-}
-
-.gallery img {
-    display: table;
-    opacity: 0.7;
-    cursor: pointer;
-
-    margin: 5px;
-}
-
-.gallery img:hover {
-    opacity: 1;
-}
-
-.description {
-    display: flex;
-    margin-left: 400px;
-    width: auto;
-
-}
-
 /*footer and media links*/
 .footer {
     flex-shrink: 0;
