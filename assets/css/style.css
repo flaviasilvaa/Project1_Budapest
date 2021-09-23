@@ -15,7 +15,6 @@ body {
 
 /*Headings and logo*/
 h1 {
-
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 3px;
@@ -25,7 +24,6 @@ h1 {
 
 #logo {
     float: left;
-    font-size: 280%px;
     margin-left: 15px;
     margin-top: 20px;
 }
@@ -35,29 +33,24 @@ h1 {
     font-size: 110%;
     letter-spacing: 3px;
 }
-
 #menu,
 #logo {
     line-height: 45px;
 }
-
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 40px;
     padding-top: 20px;
 }
-
 #menu h1,
 a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
-
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -69,14 +62,12 @@ a {
     overflow: hidden;
     position: relative;
 }
-
 #cover-text,
 #cover-text h2 {
     color: #e4e7d4;
     font-size: 19px;
     text-align: center;
 }
-
 #hero-image {
     height: 500px;
     width: 100%;
@@ -89,7 +80,6 @@ a {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-
 @keyframes hero-zoom {
     from {
         transform: scale(1.0);
@@ -105,32 +95,29 @@ a {
     font-size: 17px;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 2px;
-
     width: 270px;
     height: 100px;
-
     padding-top: 5px;
     padding-left: 5px;
-
     background-color: rgba(140, 112, 150, 0.7);
     bottom: 30px;
     right: 90px;
-
     position: absolute;
 }
 
 #span {
-
     letter-spacing: 1.5px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-left: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: Oswald, sans-serif;
-    font-size: 18px;
     text-transform: capitalize;
 }
-
+#span h3 {
+  text-decoration: underline;
+  color: #b87593;  
+}
 .first-container {
     max-width: 1200px;
     padding: 5px;
@@ -138,25 +125,21 @@ a {
     margin-bottom: 30px;
     margin-left: 25px;
 }
-
 .first-container img {
     height: 100%;
-    clip-path: circle();
-    margin-bottom: 5px;
+    clip-path: circle(40%);
+    margin-bottom: 10px;
 }
-
 .first-container h3 {
     text-align: center;
     color: #b87593;
     text-decoration: underline;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
-
 }
-
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
     gap: 30px;
 }
 
@@ -168,15 +151,13 @@ a {
     box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.1),
         7px 7px 20px rgba(0, 0, 0, 0.1)
 }
-
 .card p {
-    font-size: 13px;
+    font-size: 14px;
     text-align: justify;
     letter-spacing: 1px;
     font-family: Oswald, sans-serif;
     text-transform: capitalize;
 }
-
 em {
     font-weight: bold;
     text-transform: uppercase;
@@ -184,21 +165,21 @@ em {
 
 /*Section 3 - uploaded a youtube video*/
 .video {
-    padding: 40px 0 40px 0;
+    padding: 50px 0 50px 0;
     text-align: center;
-
+    color: #b87593;
+    text-decoration: underline;
 }
 
 /*Gallery*/
 
-#photo {
+#gallery {
     clear: both;
     line-height: 3;
     column-count: 4;
-    column-gap: 1px;    
+    column-gap: 1px;     
 }
-
-#photo img{
+#gallery img {
     width: 100%;    
 }
 
@@ -225,7 +206,7 @@ em {
     margin: 1%;
     color: inherit;
 }
-.social-networks i::after {
+.social-networks i:hover {
     color: #e4e7d4;
 }
 /*Contact Section*/
@@ -275,7 +256,7 @@ em {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #b87593;
+    background-color:#003f5a;
     color: #e4e7d4;
     display: block;
 }
