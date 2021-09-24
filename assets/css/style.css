@@ -267,14 +267,9 @@ em{
         max-width:100%;
         height: auto;
     }
-    #cover-text{
-        left:0px;
-    }
-
     #logo{
-        width:90%;
-        height: 1200px;
-        margin: 0 auto;
+        max-width:100%;
+        height: auto;
     }
     #photo{
         column-count: 3;
