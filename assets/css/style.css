@@ -280,7 +280,7 @@ em{
         column-count: 3;
     }
     .grid, .card, .first-container {
-        width: inherit;
+        width: 50%;
     }
     .first-container h3{
        text-align: center;
