@@ -104,7 +104,6 @@ a{
     right: 90px;
     position: absolute;
 }
-
 #span{
     letter-spacing: 1.5px;
     text-align: center;
@@ -140,7 +139,7 @@ a{
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    gap: 30px;
+    gap: 20px;
 }
 
 /* Create a white card with some shadow around it */
@@ -285,23 +284,14 @@ em{
         font-size:1.2rem;
     }
     #grid{
-        grid-template-columns: 1;
+        grid-template-columns: 1 1fr;
     }
     #photo{
         column-count: 2;
     }
-@media (min-device-width:600px) {
+@media screen and (min-device-width:600px) {
     #grid{
-        grid-template-columns: 1;
+        grid-template-columns: 1 1fr;
     }
-        img[data-src-600px] {
-            content: attr(data-src-600px, url);
-        }
-    }
-    
-@media (min-device-width:800px) {
-        img[data-src-800px] {
-            content: attr(data-src-800px, url);
-        }
-    }
+}
 }
