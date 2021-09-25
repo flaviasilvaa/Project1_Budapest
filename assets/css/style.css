@@ -140,6 +140,7 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 20px;
+    width: 100%;
 }
 
 /* Create a white card with some shadow around it */
@@ -168,8 +169,11 @@ em{
     text-align: center;
     color: #b87593;
     text-decoration: underline;
+    
 }
-
+.video iframe{
+    border-width: 0px;
+}
 /*Gallery*/
 #photo{
     clear: both;
@@ -260,7 +264,7 @@ em{
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
     #body {
-        font-size:1.5rem;;
+        font-size:1.5rem;
     }
     #menu img{
         max-width:100%;
@@ -273,25 +277,17 @@ em{
     #photo{
         column-count: 3;
     }
-    .grid, .card, .first-container {
-       max-width: 80%;
-    }
-    
 }
 /* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px){
+@media screen and (min-width:375px) and (max-width: 800px){
     #body{
-        font-size:1.2rem;
+        font-size:1rem;
     }
     #grid{
-        grid-template-columns: 1 1fr;
+        grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
     }
     #photo{
         column-count: 2;
-    }
-@media screen and (min-device-width:600px) {
-    #grid{
-        grid-template-columns: 1 1fr;
-    }
-}
+   }
+
 }
