@@ -1,6 +1,7 @@
 # Discovering Budapest
 
 ### The discovering Budapest is a website based in a personal experience and visit to the city cataloguing places of interest that why I feel people should visit.
+### The scope of the project is giving people an overview of the Hungarian capital.
 ### The website explains a little bit about Budapest history, the culture of the country, food that includes a photo gallery and a form contact if anyone requires any further information about the place, opinion or just want to keep in touch.
 
    ![responsive](https://user-images.githubusercontent.com/6114260/134777588-7db242ba-76c5-459a-8431-d58c6e24ffd8.jpg)
